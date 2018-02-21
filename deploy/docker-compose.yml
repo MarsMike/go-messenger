@@ -1,7 +1,7 @@
-version: 2
+version: "2"
 services:
   Goauth:
-    image: usman/go-auth:1.8
+    image: marsmike/go-auth:1.8
     command:
       - "-l"
       - "debug"
